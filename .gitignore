@@ -1,0 +1,20 @@
+
+# Ignore compiled Java files
+*.class
+
+# Ignore common Java build output folders
+bin/
+out/
+target/
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+
+# Ignore local environment secrets
+.env
+.env.*
+!.env.example
